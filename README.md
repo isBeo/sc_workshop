@@ -1,7 +1,8 @@
 # Nigerian School Management SaaS
 ## Domain Model, ERD, and Practical Build Guide
+---
 
-> **Purpose:** This document is a working guide for designing and building the School Management SaaS described in the master prompt. Use it beside your code editor. Build from the domain model outward: **workflow → domain → relationships → database → backend → UI**.
+> **Purpose:**  Build from the domain model outward: **workflow → domain → relationships → database → backend → UI**.
 
 ---
 
@@ -23,7 +24,7 @@ The core principle is:
 
 The most important relationship to understand is:
 
-```text
+  
 School
   │
   ├── Users / Roles
@@ -55,6 +56,7 @@ School
 The uploaded specification explicitly prioritizes **data integrity, historical records, multi-tenancy, security, RBAC, and maintainability**. These should guide every implementation decision.
 
 ---
+
 
 # 2. Domain Model
 
@@ -1251,7 +1253,7 @@ This is the heart of the system.
 
 ---
 
-# 23. How to Use the Domain Model to Build the App
+  #  How to Use the Domain Model to Build the App
 
 Do not start by creating random pages.
 

@@ -1,0 +1,16 @@
+import fs from "node:fs/promises";
+
+
+
+const fh =await fs.open("index.js", "r+")
+
+const data = await fh.readFile('utf-8')
+
+await fh.writeFile("index1.js");
+
+
+console.log(`${data}`);
+
+await fh.close();
+
+    index1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.jsindex1.js

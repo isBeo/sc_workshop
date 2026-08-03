@@ -1,0 +1,24 @@
+{
+  "name": "sch_hq_workflow",
+  "version": "1.0.0",
+  "description": "> **Purpose:** This document is a working guide for designing and building the School Management SaaS described in the master prompt. Use it beside your code editor. Build from the domain model outward: **workflow → domain → relationships → database → backend → UI**.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isBeo/sc_workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/isBeo/sc_workshop/issues"
+  },
+  "homepage": "https://github.com/isBeo/sc_workshop#readme",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
